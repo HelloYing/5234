@@ -1,0 +1,22 @@
+<!ELEMENT profile (name, birthday, phone, address, balance,eventId, point)>
+        <!ATTLIST profile id ID #REQUIRED>
+   <!ELEMENT name (username,firstname,lastname)>
+   		<!ELEMENT username (#PCDATA)>
+   		<!ELEMENT firstname (#PCDATA)>
+   		<!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT birthday (month, day, year)>
+        <!ELEMENT month (#PCDATA)>
+        <!ELEMENT day (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+    <!ELEMENT address (No, street, city, state, room)>
+        <!ELEMENT No (#PCDATA)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT room (#PCDATA)>
+    <!ELEMENT balance (#PCDATA)>
+    <!ELEMENT point (#PCDATA)>
+    <!ELEMENT eventId ANY>
+    
+

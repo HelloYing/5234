@@ -1,0 +1,6 @@
+<!ELEMENT register (email, password, confirmedPassword)>
+        <!ATTLIST register id ID #REQUIRED>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT confirmedPassword (#PCDATA)>
+

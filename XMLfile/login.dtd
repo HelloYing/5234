@@ -1,0 +1,5 @@
+<!ELEMENT login (email, password, body)>
+        <!ATTLIST login id ID #REQUIRED>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT body ANY>

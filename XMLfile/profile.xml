@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE profile SYSTEM "profile.dtd">
+<profile id="U3" >
+    <name>
+           <username>ABC</username>
+           <firstname>Adom</firstname>
+           <lastname>King</lastname>
+    </name>    
+    <birthday>
+           <month>--10</month>
+           <day>---25</day>
+           <year>2014</year>
+    </birthday>
+    <phone>ABC</phone>
+    <address>
+        <No>1</No>
+        <street>neil</street>
+        <city>columbus</city>
+        <state>ohio</state>
+        <room>35</room>
+    </address>
+    <balance>0.00</balance>
+    <eventId>12</eventId>
+    <point>10</point>
+</profile>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE login SYSTEM "login.dtd">
+<login id="U1" >
+    <email>ABC@osu.edu</email>
+    <password>123</password>
+    <body>"€Welcome!"€</body>
+</login>
