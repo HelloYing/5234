@@ -66,6 +66,7 @@ public class User {
 		}
 	}
 	
+	
 	public  void register() throws Exception
 	{
 		usergateway ug=new usergateway();

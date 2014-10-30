@@ -12,6 +12,7 @@ public class profilegateway {
 		   stmt.execute("insert into profile values("+context+", null, null, null, null, null, null, 0, 10)");
 		   System.out.println("Profile inserts done.");
 	}
+	
 	public void updateprofile(Profile profile) throws Exception{
 		Class.forName("org.h2.Driver");
 		   Connection conn = DriverManager.

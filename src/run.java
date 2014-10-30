@@ -5,6 +5,7 @@ public class run {
 		// TODO Auto-generated method stub
 		Parser p=new Parser();
         
+		
         String filename="register.xml";
         String file="XMLfile/"+filename;
         User user=new User(p.parse(file));
