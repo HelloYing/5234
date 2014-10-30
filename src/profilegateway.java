@@ -1,6 +1,7 @@
 import java.sql.*;
 
 public class profilegateway {
+	
 	public void insertprofile(User user) throws Exception{
 		Class.forName("org.h2.Driver");
 		   Connection conn = DriverManager.
