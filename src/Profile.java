@@ -3,33 +3,46 @@ import java.util.HashMap;
 public class Profile {
 private int profileId;
 private String userName;
-private String password;
 private String firstName;
 private String lastName;
 private String birthday;
 private String phone;
-private String email;
+
 private int addressId;
+
+private String email;
+private String password;
+private String newPassword;
+private String newConfirmedPassword;
+
 private double balance;
 private int point;
+private String insertsql="";
+private String updatesql="";
 
 public Profile(HashMap<String, String> map)
 {
 	if(map.containsKey("username")){
 		this.userName=map.get("username");
+		this.setUpdatesql(this.getUpdatesql()+"username='"+map.get("username")+"',");
 	}
-	if(map.containsKey("password")){
-		this.setPassword(map.get("password"));
-	}
+	
 	if(map.containsKey("firstname")){
 		this.firstName=map.get("firstname");
 	}
+	
 	if(map.containsKey("lastname")){
 		this.lastName=map.get("lastname");
 	}
+	
 	if(map.containsKey("birthday")){
 		this.birthday=map.get("birthday");
 	}
+		
+	if(map.containsKey("phone")){
+		this.phone=map.get("phone");
+	}
+	
 	if(map.containsKey("email")){
 		String email=map.get("email");
 		if(!email.contains("@")){
@@ -38,8 +51,14 @@ public Profile(HashMap<String, String> map)
 			this.email=email;
 		}
 	}
-	if(map.containsKey("phone")){
-		this.phone=map.get("phone");
+	
+	if(map.containsKey("password")){
+		this.setPassword(map.get("password"));
+		
+	}
+	
+	if(map.containsKey("newPassword")){
+		
 	}
 	if(map.containsKey("balance")){
 		this.setBalance(Double.parseDouble(map.get("balance")));
@@ -125,6 +144,38 @@ public String getEmail() {
 
 public void setEmail(String email) {
 	this.email = email;
+}
+
+public String getInsertsql() {
+	return insertsql;
+}
+
+public void setInsertsql(String insertsql) {
+	this.insertsql = insertsql;
+}
+
+public String getUpdatesql() {
+	return updatesql;
+}
+
+public void setUpdatesql(String updatesql) {
+	this.updatesql = updatesql;
+}
+
+public String getNewPassword() {
+	return newPassword;
+}
+
+public void setNewPassword(String newPassword) {
+	this.newPassword = newPassword;
+}
+
+public String getNewConfirmedPassword() {
+	return newConfirmedPassword;
+}
+
+public void setNewConfirmedPassword(String newConfirmedPassword) {
+	this.newConfirmedPassword = newConfirmedPassword;
 }
 
 }

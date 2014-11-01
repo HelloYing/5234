@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE register SYSTEM "register.dtd">
 <register id="U2" >
-    <email>ABCdf@osu.edu</email>
+    <email>A@osu.edu</email>
     <password>123</password>
     <confirmedPassword>123</confirmedPassword>
 </register>

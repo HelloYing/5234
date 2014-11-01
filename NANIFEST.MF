@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: run
+Class-Path: ./ ./lib/dom4j-1.6.1.jar  ./lib/h2-1.4.181.jar
+
