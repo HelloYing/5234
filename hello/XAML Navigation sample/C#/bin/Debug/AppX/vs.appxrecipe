@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YING</Machine>
+    <WindowsUser>Zhiying</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>Microsoft.SDKSamples.Navigation.CS</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>BAFED7BFC6FA929CC4EA0FB621AFC541C170871FC32CC4CC43E2388F68145BFB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Microsoft.SDKSamples.Navigation.CS_1.0.0.0_neutral__8wekyb3d8bbwe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Microsoft.SDKSamples.Navigation.CS_8wekyb3d8bbwe!SDKSample.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Microsoft.SDKSamples.Navigation.CS</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-27T11:54:56.404</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Navigation.exe">
+      <PackagePath>Navigation.exe</PackagePath>
+      <Modified>2015-02-27T11:54:56.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\microsoft-sdk.png">
+      <PackagePath>Assets\microsoft-sdk.png</PackagePath>
+      <Modified>2015-02-27T11:54:12.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\placeholder-sdk.png">
+      <PackagePath>Assets\placeholder-sdk.png</PackagePath>
+      <Modified>2015-02-27T11:54:12.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\smallTile-sdk.png">
+      <PackagePath>Assets\smallTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-27T11:54:12.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\splash-sdk.png">
+      <PackagePath>Assets\splash-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-27T11:54:12.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\squareTile-sdk.png">
+      <PackagePath>Assets\squareTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-27T11:54:12.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\storeLogo-sdk.png">
+      <PackagePath>Assets\storeLogo-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-27T11:54:12.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\tile-sdk.png">
+      <PackagePath>Assets\tile-sdk.png</PackagePath>
+      <Modified>2015-02-27T11:54:12.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\Assets\windows-sdk.png">
+      <PackagePath>Assets\windows-sdk.png</PackagePath>
+      <Modified>2015-02-27T11:54:12.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\SimplePageType3Cacheable.xbf">
+      <PackagePath>SimplePageType3Cacheable.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\SimplePageType2Cacheable.xbf">
+      <PackagePath>SimplePageType2Cacheable.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\SimplePageType1Cacheable.xbf">
+      <PackagePath>SimplePageType1Cacheable.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\CancelNavigationPage.xbf">
+      <PackagePath>CancelNavigationPage.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\PageWithParameters.xbf">
+      <PackagePath>PageWithParameters.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Scenario4.xbf">
+      <PackagePath>Scenario4.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\SimplePage.xbf">
+      <PackagePath>SimplePage.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Scenario3.xbf">
+      <PackagePath>Scenario3.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Scenario2.xbf">
+      <PackagePath>Scenario2.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Scenario1.xbf">
+      <PackagePath>Scenario1.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Sample-Utils\SampleTemplateStyles.xbf">
+      <PackagePath>Sample-Utils\SampleTemplateStyles.xbf</PackagePath>
+      <Modified>2015-02-27T11:54:55.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\Navigation.xr.xml">
+      <PackagePath>Navigation.xr.xml</PackagePath>
+      <Modified>2015-02-27T11:54:55.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zhiying\Downloads\XAML Navigation sample\C#\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-27T11:54:56.335</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
